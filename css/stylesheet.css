@@ -4,14 +4,13 @@ body{
   background-color: #FCF7F8;
   display: flex;
   flex-direction: column;
+  
 }
 
 header {
-  text-align: left;
   background-color: rgb(166, 207, 127 ,0.795);
-  display:flex;
-  flex-direction: row-reverse;
-  
+  display: flex;
+  flex-direction: column;
 }
 
 #heading{
@@ -21,19 +20,27 @@ color: darkslategray;
 
 }
 
+#intro{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+ 
+  /*overflow: unset;*/
+}
+
 #profilephoto{
   width: 15%;
   height: 15%;
   border-radius: 50%;
   border: 5px solid darkslategray;
-  list-style-image: none;
-padding: 0%;
+
 }
 
 .main{
   display: flex;
   flex-direction: row;
   overflow: unset;
+  
 }
 
 #sidebar{
