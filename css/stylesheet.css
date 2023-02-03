@@ -10,6 +10,7 @@ body{
 header {
   text-align: center;
   background-color: rgba(166, 207, 127 ,0.795);
+  
 }
 
 #heading{ 
@@ -17,9 +18,12 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 110%;
 color: darkslategray;
 }
+#heading h1{
+  font-size: xx-large;
+}
 
 #profilephoto{
-  margin-left: 1rem;
+  margin-left: 0.8rem;
   width: 12%;
   height: 12%;
   border-radius: 50%;
@@ -44,7 +48,7 @@ color: darkslategray;
 .nav-menu{
   text-align: center;
   list-style-type: none;
-  padding: 0%;
+padding: 0%;
   
 }
 
@@ -69,5 +73,6 @@ h2{
 }
 
 #content{
-  margin-left: 1.5rem;
+  margin-left: 1.8rem;
+  margin-top: 1rem;
 }
